@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rockstar.deepak.audi.MainActivity">
+
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText5"
+        android:background="#fd2f03"
+        android:textSize="18sp"
+        android:text="RED" />
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText8"
+        android:background="#FFC300"
+        android:text="ORANGE" />
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText7"
+        android:background="#FFFF00"
+        android:text="YELLOW" />
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText6"
+        android:background="#00FF00"
+        android:text="GREEN" />
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText4"
+        android:background="#0000FF"
+        android:text="BLUE" />
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText3"
+        android:background="#4B0082"
+        android:text="INDIGO" />
+
+    <EditText style="@style/Attribute"
+        android:id="@+id/editText2"
+        android:background="#EE82EE"
+        android:text="VIOLET" />
+
+</LinearLayout>
